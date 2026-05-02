@@ -1,28 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>The Prism Institute</title>
+    <meta charset="UTF-8">
+    <title>The Prism Institute | Future Learning</title>
+
+    <!-- SEO -->
+    <meta name="description" content="The Prism Institute - AI, Coding, Robotics & STEAM education in Mirpurkhas. Future-focused learning for students.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0D1326;
+            color: white;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0D1326, #1a1f3d);
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #D4AF37;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #00C9B7;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #FF7A00;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #D4AF37;
+            color: #0D1326;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #D4AF37;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #111a33;
+            padding: 20px;
+            width: 220px;
+            border-radius: 12px;
+            border: 1px solid #6A3FF0;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        /* CTA */
+        .cta {
+            background: linear-gradient(90deg, #6A3FF0, #00C9B7);
+            padding: 50px 20px;
+        }
+
+        .cta h2 {
+            color: white;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #0a0f1f;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; margin:0; text-align:center;">
 
-    <div style="background:#1f3c88; color:white; padding:40px;">
-        <h1>The Prism Institute</h1>
-        <p>Future-Focused Learning in AI, Coding & Robotics</p>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>The Prism Institute</h1>
+    <p>AI • Coding • Robotics • Future Skills Education</p>
+    <button class="btn">Apply for Admission</button>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>Welcome to the Future</h2>
+    <p>
+        We are building a new generation of thinkers in Mirpurkhas through hands-on learning in technology,
+        creativity, and innovation.
+    </p>
+</section>
+
+<!-- PROGRAMS -->
+<section>
+    <h2>Our Programs</h2>
+
+    <div class="grid">
+        <div class="card">🤖 Robotics</div>
+        <div class="card">💻 Coding</div>
+        <div class="card">🧠 Artificial Intelligence</div>
+        <div class="card">🎮 Game Development</div>
+        <div class="card">⚙️ STEAM Education</div>
     </div>
+</section>
 
-    <div style="padding:30px;">
-        <h2>Welcome</h2>
-        <p>We prepare students in Mirpurkhas for the future of technology through practical learning.</p>
+<!-- WHY US -->
+<section>
+    <h2>Why Choose Us?</h2>
+    <p>✔ Practical Learning<br>✔ Real Projects<br>✔ Future Career Skills<br>✔ Modern Tech Curriculum</p>
+</section>
 
-        <h2>Programs</h2>
-        <p>🤖 Robotics | 💻 Coding | 🧠 AI | 🎮 Game Development | ⚙️ STEAM</p>
+<!-- CTA -->
+<section class="cta">
+    <h2>Admissions Open</h2>
+    <p>Join the future of education today</p>
+    <button class="btn">Contact Now</button>
+</section>
 
-        <h2>Why Choose Us?</h2>
-        <p>Hands-on learning, real projects, future skills</p>
-
-        <h3>Admissions Open</h3>
-        <p>Contact us for enrollment</p>
-    </div>
+<!-- FOOTER -->
+<footer>
+    © 2026 The Prism Institute | Mirpurkhas
+</footer>
 
 </body>
 </html>
